@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+header{
+    background-color: pink;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+    justify-content: space-between;
+}  
+
+a{
+    color: dimgray;
+    text-decoration: none;
+}
+
+.front-end{
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-bottom: solid;
+}
+
+
+
+.projetos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.imagens-projetos{
+    width: 15rem;
+    padding: 10px;
+}
+
+.caixas-projetos{
+    background-color: pink;   
+    background-origin: padding-box;
+    border: solid;
+}
